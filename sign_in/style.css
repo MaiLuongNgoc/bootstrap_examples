@@ -1,0 +1,65 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 248, 236);
+    height: 100vh;
+    width: 305px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 360px) {
+    .body{
+        width: 280px;
+    }
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+.label {
+    margin-top: 33px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.bottom {
+    padding-top: 50px;
+}
+
+.bottom span {
+    color: rgb(85, 85, 85);
+}
+
+.user {
+    margin-top: 17px;
+    width: 100%;
+}
+
+.user input {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.user input:focus {
+    z-index: 1;
+    position: relative;
+}
+
+.password {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.password input {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
