@@ -1,0 +1,183 @@
+body {
+    margin: 0 auto;
+}
+
+.container-fluid {
+    background-color: #343a40;
+    height: 55px;
+    width: 100%;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #343a40 !important;
+    height: 55px;
+}
+
+.nb-title {
+    color: white !important;
+}
+
+.nb-title-scd {
+    color: #b4b4b4 !important;
+}
+
+.nb-title-scd:hover {
+    color: #e0e0e0 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    padding-left: 0px;
+}
+
+.nb-button {
+    padding-right: 10px;
+}
+
+.active {
+    color: white !important;
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.link:hover {
+    color: rgb(211, 209, 209) !important;
+}
+
+.disabled {
+    color: rgb(122, 122, 122) !important;
+}
+
+
+.card-group {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+
+.card-one img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50% !important;
+    text-align: center;
+    
+}
+
+.card {
+    border: none;
+}
+
+.card-right {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.hr {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.col-md-5 img {
+    width: 100%;
+}
+
+.bottom {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100px;
+}
+
+.bottom-right {
+    display: inline-block;
+    float: right;
+}
+
+.text-bottom {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-bottom:hover {
+    text-decoration: underline;
+}
+
+.carousel  {
+    background: #999;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    position: relative;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: rgba(255,255,255,.5);
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+.carousel-item {
+    height: 505px;
+    background-color: rgb(126, 126, 126);
+
+}
+
+.carousel-caption {
+    height: 60% !important;
+}
+
+.top-button {
+    height: 50px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.fslide {
+    text-align: left;
+}
+
+.fnslide {
+    text-align: right;
+}
+
+.text-bottom-button {
+    color: rgb(34, 122, 255) !important;
+    cursor: pointer;
+}
+
+.text-bottom-button:hover {
+    text-decoration: underline !important;
+}
+

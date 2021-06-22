@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <title>Carousel Template</title>
+
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <a class="navbar-brand" href="#">Carousel</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link nb-title" href="#"
+                            >Home <span class="sr-only">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nb-title-scd" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input
+                        class="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search"
+                    />
+                    <button
+                        class="btn btn-outline-success my-2 my-sm-0"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+            </div>
+        </nav>
+
+        <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-ride="carousel"
+        >
+            <ol class="carousel-indicators">
+                <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="0"
+                    class="active"
+                    ></li>
+                <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="1"
+                    ></li>
+                <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="2"
+                ></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block fslide">
+                        <h1>Example headline.</h1>
+                        <p>
+                            Cras justo odio, dapibus ac facilisis in, egestas
+                            eget quam. Donec id elit non mi porta gravida at
+                            eget metus. Nullam id dolor id nibh ultricies
+                            vehicula ut id elit.
+                        </p>
+                        <button type="button" class="btn btn-primary top-button">Sign up today</button>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block scdslide">
+                        <h1>Another example headline.</h1>
+                        <p>
+                            Cras justo odio, dapibus ac facilisis in, egestas
+                            eget quam. Donec id elit non mi porta gravida at
+                            eget metus. Nullam id dolor id nibh ultricies
+                            vehicula ut id elit..
+                        </p>
+                        <button type="button" class="btn btn-primary top-button">Learn more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block fnslide">
+                        <h1>One more for good measure.</h1>
+                        <p>
+                            Cras justo odio, dapibus ac facilisis in, egestas
+                            eget quam. Donec id elit non mi porta gravida at
+                            eget metus. Nullam id dolor id nibh ultricies
+                            vehicula ut id elit.
+                        </p>
+                        <button type="button" class="btn btn-primary top-button">Browse gallery</button>
+                    </div>
+                </div>
+            </div>
+            <a
+                class="carousel-control-prev"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+            </a>
+            <a
+                class="carousel-control-next"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+            </a>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-one">
+                    <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        class="card-img-top"
+                    />
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title text-muted">Heading</h2>
+                    <p class="card-text text-muted">
+                        Donec sed odio dui. Etiam porta sem malesuada magna
+                        mollis euismod. Nullam id dolor id nibh ultricies
+                        vehicula ut id elit. Morbi leo risus, porta ac
+                        consectetur ac, vestibulum at eros. Praesent commodo
+                        cursus magna.
+                    </p>
+                    <button type="button" class="btn btn-secondary">
+                        View details »
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-one">
+                    <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        class="card-img-top"
+                    />
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title text-muted">Heading</h2>
+                    <p class="card-text text-muted">
+                        Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula, eget lacinia odio sem nec elit. Cras mattis
+                        consectetur purus sit amet fermentum. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum
+                        nibh.
+                    </p>
+                    <button type="button" class="btn btn-secondary">
+                        View details »
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-one">
+                    <img
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        class="card-img-top"
+                    />
+                </div>
+
+                <div class="card-body">
+                    <h2 class="card-title text-muted">Heading</h2>
+                    <p class="card-text text-muted">
+                        Donec sed odio dui. Cras justo odio, dapibus ac
+                        facilisis in, egestas eget quam. Vestibulum id ligula
+                        porta felis euismod semper. Fusce dapibus, tellus ac
+                        cursus commodo, tortor mauris condimentum nibh, ut
+                        fermentum massa justo sit amet risus.
+                    </p>
+                    <button type="button" class="btn btn-secondary">
+                        View details »
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr" />
+
+        <div class="card mb-3 card-right">
+            <div class="row g-0">
+                <div class="col-md-7">
+                    <div
+                        class="card-body"
+                        style="text-align: left; margin-right: 20px"
+                    >
+                        <h2
+                            class="card-title"
+                            style="
+                                color: #616161;
+                                font-size: 50px;
+                                font-weight: 500;
+                                line-height: 1;
+                            "
+                        >
+                            First featurette heading.
+                            <span style="color: #6c757d"
+                                >It'll blow your mind.</span
+                            >
+                        </h2>
+                        <p
+                            class="card-text text-muted"
+                            style="
+                                font-size: 21px;
+                                font-weight: 300;
+                                line-height: 1.5;
+                            "
+                        >
+                            Donec ullamcorper nulla non metus auctor fringilla.
+                            Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img
+                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17a3292becb%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17a3292becb%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.1171875%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                        alt="..."
+                    />
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr" />
+
+        <div class="card mb-3 card-right">
+            <div class="row g-0">
+                <div class="col-md-5">
+                    <img
+                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17a3292becb%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17a3292becb%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.1171875%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                        alt="..."
+                    />
+                </div>
+
+                <div class="col-md-7">
+                    <div
+                        class="card-body"
+                        style="text-align: left; margin-left: 20px"
+                    >
+                        <h2
+                            class="card-title"
+                            style="
+                                color: #616161;
+                                font-size: 50px;
+                                font-weight: 500;
+                                line-height: 1;
+                            "
+                        >
+                            Oh yeah, it's that good.
+                            <span style="color: #6c757d">
+                                See for yourself.</span
+                            >
+                        </h2>
+                        <p
+                            class="card-text text-muted"
+                            style="
+                                font-size: 21px;
+                                font-weight: 300;
+                                line-height: 1.5;
+                            "
+                        >
+                            Donec ullamcorper nulla non metus auctor fringilla.
+                            Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr" />
+
+        <div class="card mb-3 card-right">
+            <div class="row g-0">
+                <div class="col-md-7">
+                    <div
+                        class="card-body"
+                        style="text-align: left; margin-right: 20px"
+                    >
+                        <h2
+                            class="card-title"
+                            style="
+                                color: #616161;
+                                font-size: 50px;
+                                font-weight: 500;
+                                line-height: 1;
+                            "
+                        >
+                            And lastly, this one.
+                            <span style="color: #6c757d"> Checkmate.</span>
+                        </h2>
+                        <p
+                            class="card-text text-muted"
+                            style="
+                                font-size: 21px;
+                                font-weight: 300;
+                                line-height: 1.5;
+                            "
+                        >
+                            Donec ullamcorper nulla non metus auctor fringilla.
+                            Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img
+                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17a3292becb%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17a3292becb%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.1171875%22%20y%3D%22261.1%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                        alt="..."
+                    />
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr" />
+
+        <div class="bottom">
+            <span class="bottom-left text-muted"
+                >© 2017-2018 Company, Inc.
+                <a class="text-bottom" href="https://github.com/"
+                    >Privacy. </a
+                ></span
+            ><a class="text-bottom" href="https://github.com/">Terms</a>
+            <span class="bottom-right"
+                ><a class="text-bottom-button" onclick="goToElement('navbar')"
+                    >Back to top</a
+                ></span
+            >
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="style.js"></script>
+    </body>
+</html>
